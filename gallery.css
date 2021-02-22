@@ -1,0 +1,45 @@
+body{
+    font-family:'Dokdo' , cursive;
+   font-size: 20px;
+}
+h1{
+    text-align:center;
+    color:forestgreen;
+    margin:30px 0 50px;
+}
+.gallery{
+  /*  margin:10px 50px;
+  
+   display: block;
+   
+  overflow:unset;
+  border-radius: 5px;*/
+ /* margin-left: 120px;*/
+ margin:10px 50px;
+ border-radius: 5px;
+  display:block;
+ 
+  padding: 10px;
+  padding-left: 12px;
+  overflow: hidden;
+
+}
+ img{
+  /* width:230px;
+    padding:5px;
+    filter:grayscale(100%);
+    transition: 1s;
+  
+    border-radius: 5px;*/
+    width: 100%;
+    border-radius: 5px;
+
+    width:230px ;
+    padding:5px;
+}
+ img:hover{
+    filter:grayscale(0);
+    transform:scale(2,2);
+    border-radius: 5px;
+    transition: .3s transform;
+}
